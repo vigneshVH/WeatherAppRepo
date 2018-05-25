@@ -11,7 +11,7 @@ request({
 {
   if(error)
   {
-    callback('unable to connect google server  :(  ');
+    callback('unable to connect google server :(  ');
   }
   else if(body.status==='OVER_QUERY_LIMIT')
   {

@@ -22,7 +22,7 @@ var getWeather=(lat,lng,callback)=>
     */
     if(error)
     {
-      callback("unable to connect weather");
+      callback("unable to connect weather app");
     }
     else if(response.statusCode===400)
     {
