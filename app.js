@@ -31,7 +31,7 @@ geocode.geocodeAdress(argv.address,(errorMessage,results)=>
          console.log(errorMessage);
        }else
        {
-       console.log(`The current temperature is: ${weatherResults.temperature} and the apparentTemperature is ${weatherResults.apparentTemperature}`);
+       console.log(`The current temperature is ${weatherResults.temperature} and the apparentTemperature is ${weatherResults.apparentTemperature}`);
        }
      });
 

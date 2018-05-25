@@ -37,7 +37,6 @@ var getWeather=(lat,lng,callback)=>
     //  console.log("Today temperature in "+process.argv[3]+" : "+);
     }
   });
-
 };
 
 module.exports.getWeather=getWeather;
